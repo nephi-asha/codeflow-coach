@@ -26,8 +26,6 @@ An intelligent productivity and well-being coach for VS Code, designed to help y
 
 ## Contributing
 
-(Optional section if you plan to open source later)
-
 ## License
 
 The MIT License (MIT)
