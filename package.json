@@ -2,7 +2,7 @@
   "name": "codeflow-coach",
   "displayName": "Codeflow Coach", 
   "description": "An intelligent productivity and well-being coach for VS Code, providing smart tips and ergonomics reminders.",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "publisher": "NephiUlimuke-EbegimAsha", 
   "engines": {
     "vscode": "^1.102.0"
@@ -53,6 +53,11 @@
           "type": "number",
           "default": 30,
           "description": "How often (in minutes) to show ergonomics reminders. Set to 0 to disable."
+        },
+        "codeflowCoach.minTipDelaySeconds": {
+            "type": "number",
+            "default": 60,
+            "description": "Minimum delay (in seconds) between any two tips being shown by Codeflow Coach. Set to 0 for no delay."
         }
       }
     }
